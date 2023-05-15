@@ -3,7 +3,7 @@ from plyer import notification
 import winsound
 
 def notify(msg):
-    notification.notify(title= "Alert", message= msg, app_icon= None, timeout= 50)
+    notification.notify(title= msg[1], message= "Number: " + msg[0] + "\nVehicle Type: " + msg[3] + "\nVehicle Model: " + msg[2], app_icon= None, timeout= 50)
     frequency= 2000
     duration= 900
     for i in range(4):
@@ -25,6 +25,6 @@ for i in details:
 
         
 if f == 1:
-    notify(i[1])
+    notify(i)
     
 db.close()
