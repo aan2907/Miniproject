@@ -43,6 +43,8 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 This ANPR system was built using the following libraries:
-   YOLO by Joseph Redmon
-   PaddleOCR by PaddlePaddle
+
+1. YOLO by Joseph Redmon,
+2. PaddleOCR by PaddlePaddle.
+   
 Special thanks to the authors and contributors of these libraries for their valuable work
