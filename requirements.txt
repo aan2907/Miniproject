@@ -1,0 +1,7 @@
+opencv-python
+ultralytics
+plyer
+winsound
+pyttsx3
+paddleocr
+datetime
